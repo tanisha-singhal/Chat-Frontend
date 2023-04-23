@@ -16,7 +16,7 @@ const Chat=()=>{
     const [users,setUsers]=useState('');
     const [message,setMessage]=useState('');
     const[messages,setMessages]=useState([]);
-    const ENDPOINT='localhost:5001';
+    const ENDPOINT='https://chat-backend-okcq.onrender.com';
    
     useEffect(()=>{
         const n=searchParams.get('name');
